@@ -10,7 +10,7 @@ const kellyEnterprises = Object.create({}, {
     }
 })
 
-cosnt leeUniversity = Object.create({}, {
+const leeUniversity = Object.create({}, {
     business: {
         value: "Lee University"
     },
@@ -20,4 +20,18 @@ cosnt leeUniversity = Object.create({}, {
     employmentEnd: {
         value: "5-1-2018"
     }
+})
+
+const christianPublishersOutlet = Object.create({}, {
+    business: {
+        value: "Christian Publishers Outlet"
+    },
+    employmentStart: {
+        value:"07-01-2014"
+    }, 
+    employmentEnd: {
+        value: "1-1-2016"
+    },
+    likes: ["Good friends", "Exposure to lots of great Christian books", "Most customers", "Was always busy and needed"],
+    dislikes: ["King James Onlyists", "Being responsible for the store without any authority", "Being stuck in the back with online orders", ]
 })
