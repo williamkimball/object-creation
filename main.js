@@ -12,7 +12,7 @@ const kellyEnterprises = Object.create({}, {
         enumerable: true
     },
     Likes: {
-        valie: ["Never doing the same thing twice", "decent pay"],
+        value: ["Never doing the same thing twice", "decent pay"],
         enumerable: true
     },
     Dislikes: {
