@@ -95,12 +95,12 @@ let mkJobOb = (job, start, end, like, dislike) => {
 }
 let teachingAssistant = mkJobOb('TA', "01-01-2017", "05-30-2017", ["Freshman students", "Jones' teaching style"], ["Freshman students", "Subjectively grading papers", "Having to fail students"])
 
-let jobs = [teachingAssistant, kellyEnterprises, leeUniversity, christianPublishersOutlet]
+let jobs = [teachingAssistant, kellyEnterprises, leeUniversity, christianPublishersOutlet, mkJobOb("landscaper","22", "25","trees", "heat")]
 
 
 for (i = 0; i < jobs.length; i++) {
     let jobArticle = document.createElement("article");
-    jobArticle.id = jobs[i].business;
+    jobArticle.id = jobs[i].Business;
 
     for (property in jobs[i]) {
         let liRef = document.createElement("p")
